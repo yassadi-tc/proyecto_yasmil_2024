@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f7fc;
+}
+.welcome-section {
+    text-align: center;
+    padding: 50px;
+}
+.welcome-section h1 {
+    color: #007bff;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}

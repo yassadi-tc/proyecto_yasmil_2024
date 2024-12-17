@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+
+#carrito-pago {
+    background-color: #b9ccf1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#carrito-pago h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #161616;
+    margin-bottom: 15px;
+}
+
+#lista-carrito-pago {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#lista-carrito-pago li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#total-carrito-pago {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#finalizar-pago {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #31b82c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#finalizar-pago:hover {
+    background-color: #3c68e2;
+}
+
+

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+main {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0617b6;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+#carrito-total {
+    margin-top: 20px;
+}
+
+#carrito-total p {
+    font-size: 18px;
+}
+
+#carrito-total a {
+    font-size: 16px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa - Yasmil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.5.3.3.css">
+</head>
+<body>
+    <header>
+        <h3 class="text-success">Yasmil.com - Ropa</h3>
+        <h1>Ropa para Damas y Caballeros</h1>
+        <div id="cart-info" class="text-end">
+            <button id="viewCart" class="btn btn-primary" onclick="window.location.href='carrito.html';">Ver Carrito (0)</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/bluza.jpg" alt="Bluzas">
+                </div>
+                <div class="text-center card-body caja">
+                    <h4 class="card_title">Bluzas</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="bluza" 
+                            data-nombre="Bluzas" 
+                            data-precio="60.00" 
+                            data-img="img/bluza.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/buzo conjunro.jpg" alt="Buzo">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Buzo</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="buzo-conjunro" 
+                            data-nombre="Buzo" 
+                            data-precio="60.00" 
+                            data-img="img/buzo conjunro.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/casaca.jpg" alt="Casaca">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Casaca</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                    data-id="casaca" 
+                    data-nombre="Casaca" 
+                    data-precio="60.00" 
+                    data-img="img/casaca.jpg">
+                Agregar
+            </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/chamara.jpg" alt="Chamara">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Chamara</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="chamara" 
+                            data-nombre="Chamara" 
+                            data-precio="60.00" 
+                            data-img="img/chamara.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/chompa.jpg" alt="Chompa">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Chompa</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="chompa" 
+                            data-nombre="Chompa" 
+                            data-precio="60.00" 
+                            data-img="img/chompa.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/casaca1.jpg" alt="Casaca deportiva">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Casaca deportiva</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="casaca1" 
+                            data-nombre="Casaca deportiva" 
+                            data-precio="60.00" 
+                            data-img="img/casaca1.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/medias-deportiva.jpg" alt="Medias deportivas">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Medias deportivas</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="medias-deportiva" 
+                            data-nombre="Medias deportivas" 
+                            data-precio="60.00" 
+                            data-img="img/medias-deportiva.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/pantalon jeans.jpg" alt="Pantalón jeans">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Pantalón jeans</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="pantalon jeans" 
+                            data-nombre="Pantalon jeans" 
+                            data-precio="60.00" 
+                            data-img="img/pantalon jeans">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/medias-tobillera.jpg" alt="Medias tobilleras">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Medias tobilleras</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="medias-deportiva" 
+                            data-nombre="Medias tobilleras" 
+                            data-precio="60.00" 
+                            data-img="img/medias-tobillera.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/pantalon vestir.jpg" alt="Pantalón vestir">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Pantalón de ocasión</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="pantalon vestir" 
+                            data-nombre="Pantalón de ocasión" 
+                            data-precio="60.00" 
+                            data-img="img/pantalon-vestir.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/zapatilla-calle.jpg" alt="Zapatilla de calle">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Zapatilla de calle</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="zapatilla-calle" 
+                            data-nombre="Zapatilla de calle" 
+                            data-precio="60.00" 
+                            data-img="img/zapatilla-calle.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/pantalon-vestir2.jpg" alt="Pantalón de vestir">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Pantalón de vestir</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="pantalon-vestir2" 
+                            data-nombre="Pantalón de vestir" 
+                            data-precio="60.00" 
+                            data-img="img/pantalon-vestir2.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/zapatilla-deportiva.jpg" alt="Zapatilla deportiva">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Zapatilla deportiva</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="zapatilla-deportiva" 
+                            data-nombre="Zapatilla deportiva" 
+                            data-precio="60.00" 
+                            data-img="img/zapatilla-deportiva.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/polo.jpg" alt="Polo">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Polo</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="polo" 
+                            data-nombre="Polo" 
+                            data-precio="60.00" 
+                            data-img="img/polo.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/polera.jpg" alt="Polera">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Polera</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="polera" 
+                            data-nombre="Polera" 
+                            data-precio="60.00" 
+                            data-img="img/polera.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/zapatilla.jpg" alt="Zapatilla">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Zapatilla</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="zapatilla" 
+                            data-nombre="Zapatilla" 
+                            data-precio="60.00" 
+                            data-img="img/zapatilla.jpg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        const botonesAgregar = document.querySelectorAll('.agregar');
+
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+                botonesAgregar.forEach(boton => {
+            boton.addEventListener('click', () => {
+                // Obtener los datos del producto
+                const id = boton.getAttribute('data-id');
+                const nombre = boton.getAttribute('data-nombre');
+                const precio = parseFloat(boton.getAttribute('data-precio'));
+                const imagen = boton.getAttribute('data-img');
+
+                const producto = {
+                    id,
+                    nombre,
+                    precio,
+                    imagen,
+                    cantidad: 1
+                };
+
+                const index = carrito.findIndex(item => item.id === id);
+                if (index !== -1) {
+                    carrito[index].cantidad += 1;
+                } else {
+                    carrito.push(producto);
+                }
+
+                localStorage.setItem('carrito', JSON.stringify(carrito));
+
+                const totalProductos = carrito.reduce((total, item) => total + item.cantidad, 0);
+                document.getElementById('viewCart').textContent = `Ver Carrito (${totalProductos})`;
+            });
+        });
+    </script>
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <h5>Contacto</h5>
+                        <p>Email: contacto@yasmil.com</p>
+                        <p>Teléfono: +123 456 789</p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <h5>Redes Sociales</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://facebook.com" class="text-white" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com" class="text-white" target="_blank">Twitter</a></li>
+                            <li><a href="https://instagram.com" class="text-white" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <p>&copy; 2024 Yasmil.com | Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

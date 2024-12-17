@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefactos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.5.3.3.css">
+</head>
+<body>
+    <header>
+        <h3 class="text-success">Yasmil.com - Ropa</h3>
+        <h1>Los mejores artefactos para tu hogar</h1>
+        <div id="cart-info" class="text-end">
+            <button id="viewCart" class="btn btn-primary" onclick="window.location.href='carrito.html';">Ver Carrito (0)</button>
+        </div>
+    </header>
+    <main>
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/cafetera.jpeg" alt="">
+                </div>
+                <div class="text-center card-body caja">
+                    <h4 class="card_title">Cafetera</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="cafetera" 
+                            data-nombre="Cafetera" 
+                            data-precio="60.00" 
+                            data-img="img/cafetera.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/arrocera.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Arrocera</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="arrocera" 
+                            data-nombre="Arrocera" 
+                            data-precio="60.00" 
+                            data-img="img/arrocera.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/esprimidor.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Esprimidor</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="esprimidor" 
+                            data-nombre="Esprimidor" 
+                            data-precio="60.00" 
+                            data-img="img/esprimidor.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/horno.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Horno</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="horno" 
+                            data-nombre="Horno" 
+                            data-precio="60.00" 
+                            data-img="img/horno.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/lavadora.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Lavadora</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="lavadora" 
+                            data-nombre="Lavadora" 
+                            data-precio="60.00" 
+                            data-img="img/lavadora.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/liquadora.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Licuadora</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="licuadora" 
+                            data-nombre="Licuadora" 
+                            data-precio="60.00" 
+                            data-img="img/liquadora.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/ollas.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Ollas</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="ollas" 
+                            data-nombre="Ollas" 
+                            data-precio="60.00" 
+                            data-img="img/ollas.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/olla_presion.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Olla presión</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="olla_presion" 
+                            data-nombre="Olla presión" 
+                            data-precio="60.00" 
+                            data-img="img/olla_presion.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/plancha.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Plancha</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="plancha" 
+                            data-nombre="Plancha" 
+                            data-precio="60.00" 
+                            data-img="img/plancha.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/refrigeradora.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Refrigeradora</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="refrigeradora" 
+                            data-nombre="Refrigeradora" 
+                            data-precio="60.00" 
+                            data-img="img/refrigeradora.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/sandwichera.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Sandwichera</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="sandwichera" 
+                            data-nombre="Sandwichera" 
+                            data-precio="60.00" 
+                            data-img="img/sandwichera.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/sarten.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Sartén</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="sarten" 
+                            data-nombre="Sartén" 
+                            data-precio="60.00" 
+                            data-img="img/sarten.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/tetera.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Tetera</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="tetera" 
+                            data-nombre="Tetera" 
+                            data-precio="60.00" 
+                            data-img="img/tetera.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/tostadora.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Tostadora</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="tostadora" 
+                            data-nombre="Tostadora" 
+                            data-precio="60.00" 
+                            data-img="img/tostadora.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/coladora.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Coladora</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="coladora" 
+                            data-nombre="Coladora" 
+                            data-precio="60.00" 
+                            data-img="img/coladora.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card product-card">
+                    <img class="img-fluid muestra" src="img/cocina.jpeg" alt="">
+                </div>
+                <div class="text-center card-body">
+                    <h4 class="card_title">Cocinas</h4>
+                    <p class="card_text">60.00</p>
+                    <button class="agregar" 
+                            data-id="cocina" 
+                            data-nombre="Cocinas" 
+                            data-precio="60.00" 
+                            data-img="img/cocina.jpeg">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <script>
+        const botonesAgregar = document.querySelectorAll('.agregar');
+
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+                botonesAgregar.forEach(boton => {
+            boton.addEventListener('click', () => {
+                const id = boton.getAttribute('data-id');
+                const nombre = boton.getAttribute('data-nombre');
+                const precio = parseFloat(boton.getAttribute('data-precio'));
+                const imagen = boton.getAttribute('data-img');
+
+                const producto = {
+                    id,
+                    nombre,
+                    precio,
+                    imagen,
+                    cantidad: 1
+                };
+
+                const index = carrito.findIndex(item => item.id === id);
+                if (index !== -1) {
+                    carrito[index].cantidad += 1;
+                } else {
+                    carrito.push(producto);
+                }
+
+                localStorage.setItem('carrito', JSON.stringify(carrito));
+
+                const totalProductos = carrito.reduce((total, item) => total + item.cantidad, 0);
+                document.getElementById('viewCart').textContent = `Ver Carrito (${totalProductos})`;
+            });
+        });
+    </script>
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <h5>Contacto</h5>
+                        <p>Email: contacto@yasmil.com</p>
+                        <p>Teléfono: +123 456 789</p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <h5>Redes Sociales</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://facebook.com" class="text-white" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com" class="text-white" target="_blank">Twitter</a></li>
+                            <li><a href="https://instagram.com" class="text-white" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <p>&copy; 2024 Yasmil.com | Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

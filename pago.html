@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proceso de Pago</title>
+    <link rel="stylesheet" href="css/pago.css" />
+
+</head>
+<body>
+    <h3 class="text-success">Yasmil.com - Pago</h3>
+
+    <div id="carrito-pago">
+        <h5>Carrito de compras</h5>
+        <ul id="lista-carrito-pago"></ul>
+        <p id="total-carrito-pago">Total: $0</p>
+        <button type="button" class="btn btn-success" id="finalizar-pago">Finalizar Pago</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carrito = JSON.parse(localStorage.getItem('carrito'));
+
+            if (carrito) {
+                const listaCarritoPago = document.getElementById('lista-carrito-pago');
+                const totalCarritoPago = document.getElementById('total-carrito-pago');
+
+                let total = 0;
+                carrito.forEach(producto => {
+                    const item = document.createElement('li');
+                    item.textContent = `${producto.nombre} - $${producto.precio}`;
+                    listaCarritoPago.appendChild(item);
+                    total += producto.precio;
+                });
+
+                totalCarritoPago.textContent = `Total: $${total}`;
+            } else {
+                alert('No hay productos en tu carrito.');
+                window.location.href = 'index.html'; 
+            }
+        });
+
+
+        document.getElementById('finalizar-pago').addEventListener('click', function() {
+            alert('Pago realizado con éxito.');
+            localStorage.removeItem('carrito'); 
+            window.location.href = 'index.html'; 
+        });
+    </script>
+       
+</body>
+</html>
